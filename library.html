@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library</title>
+<link rel="shortcut-icon" href="C:\Users\hp\Desktop\apple-icon.png" type="image/x-icon">
+<style>
+body{background-image:url("image.webp");
+     background-repeat:no-repeat;
+	 background-size:cover;
+	 backdrop-filter:blur(1px)}
+.center{text-align:center;
+        margin-top:80px}
+fieldset{background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.6);}		
+.a{font-style:cursive;
+   color:white;
+   font-size:40px;
+   text-align:center}
+.b{width:320px;
+   border-radius:20px;
+   height:50px;
+   background-color:transparent;
+   color:white;
+   margin-bottom:40px;
+   border:2px solid white;
+   outline:none;
+   font-size:20px} 
+::placeholder {color:#b0bec5;}  
+.c{font-style:cursive;
+   color:white;
+   font-size:30px;
+   margin-top:30px;
+   text-decoration:none}
+.c:hover{text-decoration:underline}
+.c:active{color:white}
+p{color:white;
+  font-weight:bold}	   
+#y{color:#b0bec5;
+  font-weight:bold}	
+a{color:white} 
+#fp{color:white;
+    text-decoration:none}
+button{border:none;
+       outline:none}	
+</style>
+<script>
+function abc(){var a=document.getElementById("user").value;
+               if(a==""){
+			   document.getElementById("user").focus();}} 
+</script>
+</head>
+<body>
+<h1 class="a">Heads Over Meals</h1>
+<fieldset style="margin:auto; width:40%; margin-top:70px; border-color:white">
+<div class="center">
+<input type="text" placeholder="Username" autofocus class="b" id="user" onblur="abc()" required><br>
+<span id="z"></span>
+<input type="password" placeholder="Password" class="b" id="pswd" required>
+<p id="y"></p><br>
+<a href="order.html" class="c"><b>Sign In</b></a>
+<p><a href="fp.html" id="fp">Forgot Password??</a></p>
+<p>Don't have an account? <a href="account.html">Create new Account.</a></p>
+</div>
+</fieldset>
+</body>
+</html>

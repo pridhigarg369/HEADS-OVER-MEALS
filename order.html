@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEADS OVER MEALS</title>
+<link rel="stylesheet" href="order.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="jquery.min.js"> </script> 
+</head>
+<body onload="load()">
+<div id="a">
+   <div class="header"></div>
+   <div class="main">
+		<span>
+		<a href="index.html"> <img src="logo.jpeg" id="logo"></span> </a>
+		<a href="story.html" class="anchor">Our Story</a>
+		<a href="menu.html" class="anchor">Menus</a>
+		<a href="order.html" id="one" class="anchor">Order Online</a>
+		<a href="catering.html" class="anchor">Catering</a>
+		<a href="events.html" class="anchor">Events</a>
+		<a href="contact.html" class="anchor">Contact & Reservations</a>
+   </div>
+</div> 
+	<div id="heading">ORDER ONLINE</div> 	
+	<div id="bg">
+      <div class="one">
+	    <table>
+		   <tr><td><img src="profile.jfif"></td>
+		       <td class="text1"><div><a href="library.html" id="l1">Hi, Guest</a></div>
+			                              </td></tr>
+		   <tr><td colspan="2" class="text1" style="padding:10px" id="click" >MENU</td></tr>
+           <tr><td  colspan="2"class="show noborder" id="color" style="padding-left:10px; padding-top:20px; padding-bottom:20px"  ><a href="starters.html" target="f_name" class="a1 text2" onclick="color()">STARTERS</a></td></tr>		
+           <tr><td colspan="2" class="show noborder"  id="color2" style="padding-left:10px; padding-top:20px; padding-bottom:20px" ><a href="sweets.html" target="f_name" class="a1 text2" onclick="color2()">SWEETS</a></td></tr>		   
+		</table>
+	  </div> 
+      <div class="two">
+	     <table>
+		    <tr><td id="menu" class="noborder">MENU</td></tr>
+			<tr><td class="noborder"><iframe name="f_name" height="730px" width="530px" style="border:none"></iframe></td></tr>
+		 </table>
+	  </div>
+      <div class="three">
+	     <table>
+		    <tr><td class="text2" style="padding:20px">My order</td>
+			    <td id="count">(5 items)</td></tr>
+			<tr><td colspan="2" id="orders"><div id="pasta"><span>5</span> x  White Pasta<span id="rate">100Rs</span></div></td></tr>
+            <tr><td class="text2" style="padding:20px">Subtotal</td>
+                <td id="total">500Rs</td></tr>
+            <tr><td class="text1" colspan="2" style="padding:20px" id="request">+ Special Requests</td></tr>		
+            <tr><td colspan="2" style="padding:28px" class="noborder"><p>Pickup Only</p>
+                                <p class="text2" style="padding:8px">For: ASAP(in 15 min)</p>
+								<button type="submit" onclick="cart()"  data-toggle="modal" data-target="#order">ORDER NOW</button>
+			<div class="modal" id="order">
+		    <div class="modal-dialog">
+			   <div class="modal-content ">
+			      <div class="modal-body">
+				       <div id="thanks">Thank you for your order</div>
+					   <div class="text2 writing">We have received your order. You'll find a summary of your recent purchase below.</div>
+                       <div class="text2 writing">Please allow some time to process and ship your order. You'll receive another email when your order has shipped.</div>	
+                       <div class="text2 no"><div><b>Order Number:</b> 5846</div><div><b>Order Date:</b> May 15,2021</div></div>	
+                       <div class="no"><div class="writing border"><a href="" style="text-decoration:none; color: lightgrey;">  Review your order </a></div><div class="writing border"> <a href ="contact.html" style="text-decoration:none; color: lightgrey;"> Contact Customer Care</a> </div></div>					   
+				  </div>
+			   </div>
+            </div>
+         </div>	</td></tr>			
+		 </table>		
+	  </div>	  
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>			
+<script type="text/javascript" src="order.js"></script>
+</body>
+</html>	 

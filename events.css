@@ -1,0 +1,76 @@
+body{
+    font-family: Cambria ;
+}
+
+
+#event-header{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    letter-spacing: 15px;
+    color: rgba(95, 0, 56);
+    margin: 200px 0px 60px 0px;
+}
+#img-holder{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+#img-holder img{
+	border-radius:20px;
+	border:5px solid rgba(95 , 0 , 56);
+}
+.event-type{
+	border: 15px solid rgba(95 , 0 , 56);
+    display: flex;
+	margin-bottom:20px;
+	background-color: whitesmoke;
+}
+.event-img{
+    margin: 50px;
+    width: 100%;
+    display: inline-block;
+}
+.event-img img{
+	border-radius:30px;
+	border:10px solid lightgrey;
+}
+.event-details{
+    margin: 100px 50px 50px;
+    font-size: 2.2rem;
+    width: 50%;
+    color: rgba(95, 0, 56);
+}
+#bookings{
+	background-color:white;
+	width: 50%;
+	margin: 100px 0px 0px 25% ; 
+	border:5px solid rgba(95 , 0 , 56) ;
+}
+#bookings-form{
+	border:2px solid rgba(95 , 0 , 56) ;
+}
+#button{
+margin-left:5px;
+margin-top:15px;
+width:27%;
+height:9%;
+background-color:rgba(95,0,56);
+color:white;
+border:0;
+}
+
+.drop{width:80%;
+height:40px;
+background-color:rgba(240,237,230);
+border:0;
+font-size:1.2rem;}
+
+.drop1{width:80%;
+height:50px;
+color: white;
+background-color:rgba(95 , 0 , 56) ;
+border:0;
+font-size:1.2rem;}
+  
+

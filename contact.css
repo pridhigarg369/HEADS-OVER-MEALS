@@ -1,0 +1,66 @@
+
+#heading{text-align:center;
+         font-size:60px;
+         color:rgba(95 , 0 , 56);
+         font-weight:bold;
+     font-family:cambria;
+         letter-spacing:15px;
+     cursor:pointer;
+     margin-bottom:20px;}
+.story{height:400px;
+       width:560px;
+       margin-left:710px;
+     margin-top:-400px;
+       position:absolute;
+       background-color:white}     
+#pic{height:700px;
+     width:100%;
+   position:relative;
+   }
+.content{display:flex;
+         flex-direction:row;}
+.one{color:#e65100;}     
+.img{width:53%;
+     }  
+.margin{margin-left:110px;}  
+.text{background-color:rgba(240,237,230);
+      height:400px;
+    width:43%;
+    } 
+.text2{background-color:white;
+      height:500px;
+    width:43%;
+    }    
+.text3{font-size:20px;
+       font-family:cambria;
+     color:rgba(95,0,56);}    
+h3{font-size:30px;
+font-family:cambria;
+   color:rgba(95,0,56);
+   margin-top:50px;
+   text-align:center;
+   cursor:pointer} 
+.b{margin-top:200px}  
+#contact{margin-left:30px;
+         line height:1.9;} 
+#complaint{margin-left:200px;
+           margin-top:-160px;}
+#button{
+margin-left:5px;
+margin-top:15px;
+width:27%;
+height:9%;
+background-color:rgba(95,0,56);
+color:white;
+border:0;
+}
+.drop{width:80%;
+height:42px;
+background-color:rgba(240,237,230);
+border:0;
+font-size:0.8em;}       
+.drop1{width:80%;
+height:42px;
+background-color:rgba(95,0,56);
+color:white;
+border:0;}

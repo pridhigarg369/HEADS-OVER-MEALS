@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <title>Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-image: url("image.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      fieldset {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      .a {
+        text-align: center;
+      }
+      .pic {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        box-shadow: 2px 2px 25px white;
+      }
+      .b {
+        background-color: transparent;
+        color: white;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+      .main {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      td {
+        padding: 15px;
+      }
+      .inline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .inline2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 16px;
+      }
+      .end {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: cursive;
+        cursor: pointer;
+      }
+      .end:hover {
+        text-decoration: underline;
+      }
+      #reset {
+        background-color: transparent;
+        font-size: 25px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      #reset:hover {
+        text-decoration: underline;
+      }
+      #text {
+        color: white;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <fieldset
+      style="margin: auto; width: 40%; border-color: white; margin-top: 20px"
+    >
+      <form class="a">
+        <div><img src="./profile.jfif" class="pic" id="pic" alt="sorry" /></div>
+        <input type="file" onchange="readURL(this);" /><br />
+        <div class="inline">
+          <div>
+            <table>
+              <tr>
+                <td><label class="main">First Name</label></td>
+                <td>
+                  <input
+                    type="text"
+                    class="b"
+                    onblur="func1()"
+                    id="f1"
+                    autofocus
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Last Name</label></td>
+                <td>
+                  <input
+                    type="text"
+                    class="b"
+                    onblur="func2()"
+                    id="f2"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Username</label></td>
+                <td>
+                  <input
+                    type="text"
+                    class="b"
+                    onblur="func3()"
+                    id="f3"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Email Address</label></td>
+                <td>
+                  <input
+                    type="email"
+                    class="b"
+                    onblur="func4()"
+                    id="f4"
+                    required
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td><label class="main">Date Of Birth</label></td>
+                <td>
+                  <input
+                    type="date"
+                    class="b"
+                    onblur="func5()"
+                    id="f5"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Contact No.</label></td>
+                <td>
+                  <input
+                    type="text"
+                    class="b"
+                    maxlength="10"
+                    onblur="func6()"
+                    id="f6"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Password</label></td>
+                <td>
+                  <input
+                    type="password"
+                    class="b"
+                    onblur="func7()"
+                    id="f7"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label class="main">Confirm Password</label></td>
+                <td>
+                  <input
+                    type="password"
+                    class="b"
+                    id="f8"
+                    onblur="func8()"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><p id="text"></p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="inline2">
+          <input type="reset" value="Reset" id="reset" />
+          <a href="./order.html" class="end">Submit</a>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
